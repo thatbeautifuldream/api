@@ -3,12 +3,12 @@
   "type": "module",
   "version": "1.0.0",
   "description": "A simple Node.js app with express.",
-  "main": "server.js",
+  "main": "index.js",
   "scripts": {
     "start": "node server.js"
   },
   "dependencies": {
-    "express": "^4.17.1"
+    "express": "^4.17.2"
   },
   "engines": {
     "node": "14.x"
@@ -17,5 +17,17 @@
   "keywords": [
     "node",
     "express"
-  ]
+  ],
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/thatbeautifuldream/api.git"
+  },
+  "author": "Milind Mishra",
+  "bugs": {
+    "url": "https://github.com/thatbeautifuldream/api/issues"
+  },
+  "homepage": "https://github.com/thatbeautifuldream/api#readme",
+  "devDependencies": {
+    "nodemon": "^2.0.15"
+  }
 }
